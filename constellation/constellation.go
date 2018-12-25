@@ -19,8 +19,12 @@ func (constellation *Constellation) Alias() string {
 	dates := [...]int{20, 19, 21, 21, 21, 22, 23, 23, 23, 23, 22, 22}
 	constellations := []rune("水瓶双鱼白羊金牛双子巨蟹狮子处女天秤天蝎射手魔羯")
 	from := constellation.t.Month() * 2
+	// 12 月 22 日之后会越界，所以需要进行处理
 	if constellation.t.Day() < dates[constellation.t.Month()-1] {
 		from -= 2
+	}
+	if from == 24 {
+		from = 0
 	}
 	return string(constellations[from:][:2])
 }
