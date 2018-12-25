@@ -1,8 +1,8 @@
 # chinese-calendar-golang
 
-[![Build Status](https://travis-ci.org/Lofanmi/chinese-calendar-golang.svg)](https://travis-ci.org/Lofanmi/chinese-calendar-golang)
-[![codecov](https://codecov.io/gh/Lofanmi/chinese-calendar-golang/branch/master/graph/badge.svg)](https://codecov.io/gh/Lofanmi/chinese-calendar-golang)
-[![Go Report Card](https://goreportcard.com/badge/github.com/Lofanmi/chinese-calendar-golang)](https://goreportcard.com/report/github.com/Lofanmi/chinese-calendar-golang)
+[![Build Status](https://travis-ci.org/wdxtub/chinese-calendar-golang.svg)](https://travis-ci.org/wdxtub/chinese-calendar-golang)
+[![codecov](https://codecov.io/gh/wdxtub/chinese-calendar-golang/branch/master/graph/badge.svg)](https://codecov.io/gh/wdxtub/chinese-calendar-golang)
+[![Go Report Card](https://goreportcard.com/badge/github.com/wdxtub/chinese-calendar-golang)](https://goreportcard.com/report/github.com/wdxtub/chinese-calendar-golang)
 
 公历, 农历, 干支历转换包, 提供精确的日历转换.
 
@@ -17,7 +17,7 @@ Go 1.7+测试通过, 1.6及以下应该也可以, 不过单元测试跑不了.
 # 如何安装
 
 ```bash
-go get -u -v github.com/Lofanmi/chinese-calendar-golang
+go get -u -v github.com/wdxtub/chinese-calendar-golang
 ```
 
 # 用法
@@ -34,7 +34,7 @@ date -R
 import (
 	"time"
 
-	"github.com/Lofanmi/chinese-calendar-golang/calendar"
+	"github.com/wdxtub/chinese-calendar-golang/calendar"
 )
 
 func xxx() {

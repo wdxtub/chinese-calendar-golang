@@ -3,11 +3,11 @@ package ganzhi
 import (
 	"time"
 
-	"github.com/Lofanmi/chinese-calendar-golang/animal"
-	"github.com/Lofanmi/chinese-calendar-golang/gan"
-	"github.com/Lofanmi/chinese-calendar-golang/solarterm"
-	"github.com/Lofanmi/chinese-calendar-golang/utils"
-	"github.com/Lofanmi/chinese-calendar-golang/zhi"
+	"github.com/wdxtub/chinese-calendar-golang/animal"
+	"github.com/wdxtub/chinese-calendar-golang/gan"
+	"github.com/wdxtub/chinese-calendar-golang/solarterm"
+	"github.com/wdxtub/chinese-calendar-golang/utils"
+	"github.com/wdxtub/chinese-calendar-golang/zhi"
 )
 
 // Ganzhi 干支历

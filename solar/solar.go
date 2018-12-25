@@ -3,10 +3,10 @@ package solar
 import (
 	"time"
 
-	"github.com/Lofanmi/chinese-calendar-golang/animal"
-	"github.com/Lofanmi/chinese-calendar-golang/constellation"
-	"github.com/Lofanmi/chinese-calendar-golang/solarterm"
-	"github.com/Lofanmi/chinese-calendar-golang/utils"
+	"github.com/wdxtub/chinese-calendar-golang/animal"
+	"github.com/wdxtub/chinese-calendar-golang/constellation"
+	"github.com/wdxtub/chinese-calendar-golang/solarterm"
+	"github.com/wdxtub/chinese-calendar-golang/utils"
 )
 
 // Solar 公历
